@@ -7,9 +7,7 @@ print("""=== CALCULADORA ===
       \n4 Dividir
       \n5 Salir
       """)
-        #Agregamos un blucle while que se ejecutara multiples veces al menos que nosotros salgamos del
-        #programa
-        while not(fin):
+while not fin:
             opc = int(input("Opcion: "))#declaramos una variable Opc que contiene una entrada de datos
             #la cual mostrara un Opcion: donde el usuario puede digitar un numero que hara referencia a la 
             #operacion a realizar
